@@ -28,7 +28,6 @@ public class LinkedList<K, V> {
         }
 
     }
-<<<<<<< HEAD
     public MyMapNode remove(K key){
         MyMapNode deleteNode=search(key);
         MyMapNode previousNode=head;
@@ -44,16 +43,9 @@ public class LinkedList<K, V> {
     }
     public void print() {
         MyMapNode myMapNode = head;
-            while (!(myMapNode == null)) {
-                System.out.print(myMapNode.getKey() + " ");
-=======
-
-    public void print() {
-        MyMapNode myMapNode = head;
-            while (!(myMapNode == null)) {
-                System.out.println(myMapNode.getKey() + " = " + myMapNode.getValue());
->>>>>>> UC1_BST_Adding
-                myMapNode = myMapNode.getNext();
-            }
+        while (!(myMapNode == null)) {
+            System.out.print(myMapNode.getKey() + " ");
+            myMapNode = myMapNode.getNext();
+        }
     }
 }

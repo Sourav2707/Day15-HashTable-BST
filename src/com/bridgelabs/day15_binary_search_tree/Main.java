@@ -16,5 +16,6 @@ public class Main {
         bst.add(65);
         bst.add(63);
         bst.add(67);
+        bst.search(63);
     }
 }
