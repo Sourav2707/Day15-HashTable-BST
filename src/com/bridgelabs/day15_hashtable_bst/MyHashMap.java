@@ -30,6 +30,11 @@ public class MyHashMap<K,V> {
         int hashCode=Math.abs(obj.hashCode())%numOfBuckets;
         return hashCode;
     }
+    public void remove(K key){
+        int index=getIndex(key);
+        myBucketArray[index].remove(key);
+        System.out.println("Removed: "+key);
+    }
 
     public void print(){
         for (LinkedList linkedList: myBucketArray) {

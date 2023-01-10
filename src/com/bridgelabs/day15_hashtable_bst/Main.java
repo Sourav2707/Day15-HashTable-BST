@@ -11,5 +11,9 @@ public class Main {
                 myHashmap.put(word, 1);
             }
             myHashmap.print();
+        System.out.println("\n");
+            myHashmap.remove("avoidable");
+        System.out.println("");
+            myHashmap.print();
     }
 }
