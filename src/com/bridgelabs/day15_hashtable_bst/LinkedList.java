@@ -1,4 +1,4 @@
-package ccom.bridgelabs.day15_hashtable_bst;
+package com.bridgelabs.day15_hashtable_bst;
 
 public class LinkedList<K, V> {
     MyMapNode head;
